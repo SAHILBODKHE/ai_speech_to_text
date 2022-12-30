@@ -107,7 +107,7 @@ const ConvertPage = () => {
               value="Upload File"
             />
             <span
-              class="holder"
+              className="holder"
               type="text"
               name="name"
               placeholder="File Name.."
