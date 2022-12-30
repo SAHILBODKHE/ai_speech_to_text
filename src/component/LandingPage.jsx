@@ -20,7 +20,7 @@ const LandingPage = () => {
         </a>
         <img
           id="i100"
-          src={process.env.PUBLIC_URL + '/img/collage.png'}
+          src={process.env.PUBLIC_URL + '/img/collage.jpeg'}
           className="header__img"
           alt="Minimalist bank items"
         />

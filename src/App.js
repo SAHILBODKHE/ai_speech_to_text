@@ -40,9 +40,8 @@ function App() {
         <div className="App">
           <BrowserRouter className="nav">
             <div className="navbar">
-              <div className="heading">
-                <h2>Home Page</h2>
-              </div>
+              <img src={process.env.PUBLIC_URL + 'icon.png'}></img>
+
               <div
                 className={showMediaIcons ? 'mobile-menu-link' : 'links'}
                 style={{ height: '25rem' }}
@@ -109,6 +108,7 @@ function App() {
           <BrowserRouter className="nav">
             <div className="navbar">
               <img src={process.env.PUBLIC_URL + '/img/icon.png'}></img>
+
               <div
                 className={showMediaIcons ? 'mobile-menu-link' : 'links'}
                 style={{ height: '34rem' }}
